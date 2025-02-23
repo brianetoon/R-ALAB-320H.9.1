@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Header = () => {
+const Header = ({ children }) => {
   return (
-   <h1 className='font-bold text-2xl'>Todo List</h1>
+   <h1 className='font-bold text-2xl'>{ children }</h1>
   )
 }
 
